@@ -1,0 +1,25 @@
+import { cloneDeep } from 'lodash';
+
+
+type Primitive = undefined | null | boolean | string | number | Function;
+
+interface DeepImmutableArray<T> extends ReadonlyArray<Immutable<T>> {}
+interface DeepImmutableMap<K, V> extends ReadonlyMap<Immutable<K>, Immutable<V>> {}
+export type DeepImmutableObject<T> = {
+    readonly [K in keyof T]: Immutable<T[K]>
+};
+
+export type Immutable<T> =
+    T extends Primitive ? T :
+    T extends Array<infer U> ? DeepImmutableArray<U> :
+    T extends Map<infer K, infer V> ? DeepImmutableMap<K, V> :
+    DeepImmutableObject<T>;
+
+export function clone<K, V>(x: DeepImmutableMap<K, V>): Map<K, V>;
+export function clone<T>(x: DeepImmutableArray<T>): T[];
+export function clone<T>(x: DeepImmutableObject<T>[keyof T]): T[keyof T];
+export function clone<T>(x: DeepImmutableObject<T>): T;
+
+export function clone<T>(x: Immutable<T>): T {
+    return <T>cloneDeep(x);
+}
