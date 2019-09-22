@@ -1,10 +1,10 @@
 # Typed Id's
 
 ### Problem
-In most projects Id's are used to identify entitys. If this is done with plain strings, the TypeScript compiler can't differentiate between a UserId and an OrderId for example.
+In most projects Id's are used to identify entities. If this is done with plain strings, the TypeScript compiler can't differentiate between a UserId and an OrderId for example.
 
 ### Solution
-Provide an interface which wraps the String type to give the tsc the ability to support us while handling Id's.
+Provide an interface which wraps the String type to give the TypeScript compiler the ability to help the developer while handling Id's.
 
 ### Example
 
