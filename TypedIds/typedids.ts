@@ -1,6 +1,7 @@
 /*
 Interface which just extends the String type to provide a proper Id typing.
-Since empty interfaces are not allowed and we don't need the __user_id, never is being used.
+Since in TypeScript an empty interface will be the same as another empty interface, you need a property which is unique to it. 
+But we don't need the __user_id, so never is being used.
 */
 export interface TUserId extends String {
     __user_id: never;
@@ -9,4 +10,4 @@ export interface TUserId extends String {
 /*
 Convert a normal String to a UserId.
 */
-export const asUserId = (s: any): TUserId => <any>s;
+export const asUserId = (s: String): TUserId => <any>s;
