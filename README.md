@@ -7,6 +7,8 @@ In enterprise grade applications, everyone will encounter various problems which
 1. [Typed Id's](./TypedIds)
 Provides an interface which wraps the String type to give the TypeScript Compiler the ability to help the developer while handling Id's.
 
+2. [Typed Templates](./TypedTemplates)
+
 2. [Immutability](./Immutability)
 An immutable type, which provides deep immutability.
 
