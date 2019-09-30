@@ -8,7 +8,7 @@ We created a service which uses the window object to enable us to call our own f
 
 ### Example
 ```typescript
-import {Injectable} from "@angular/core";
+import { Injectable } from "@angular/core";
 
 
 @Injectable()
