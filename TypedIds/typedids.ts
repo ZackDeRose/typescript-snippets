@@ -8,6 +8,6 @@ export interface TUserId extends String {
 }
 
 /*
-Convert a normal String to a UserId.
+Convert a normal string to a UserId.
 */
-export const asUserId = (s: String): TUserId => <any>s;
+export const asUserId = (s: string): TUserId => <any>s;
