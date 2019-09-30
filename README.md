@@ -16,6 +16,9 @@ An immutable type, which provides deep immutability.
 [Console Helper Service](./Angular/ConsoleHelperService)
 A service which uses the window object to enable us to call our own functions from the browsers console.
 
+[Logging Decorator](./Angular/LoggingService)
+A service which uses the window object to enable us to call our own functions from the browsers console.
+
 
 Hopefully we could also solve some of your problems or provide some new solution ideas.
 We are always looking forward to your suggestions for improvement and comments on our snippets here at GitHub.
