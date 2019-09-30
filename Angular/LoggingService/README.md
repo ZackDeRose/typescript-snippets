@@ -1,4 +1,4 @@
-# Console Helper Service
+# Logging Decorator
 
 ### Problem
 If you want to steer your application logs more, you need a logging service. If a lot of components and services produce logs, a context and topic can be helpful to understand the logs later. Additionally you don't want overhead in your application.
