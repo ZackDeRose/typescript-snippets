@@ -17,7 +17,7 @@ An immutable type, which provides deep immutability.
 A service which uses the window object to enable us to call our own functions from the browsers console.
 
 [Logging Decorator](./Angular/LoggingService)
-A service which uses the window object to enable us to call our own functions from the browsers console.
+A logging decorator which can be attached to each component and will be instanciated with its context and topic.
 
 
 Hopefully we could also solve some of your problems or provide some new solution ideas.
