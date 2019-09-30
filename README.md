@@ -13,7 +13,7 @@ Provides an interface which wraps the String type to give the TypeScript Compile
 An immutable type, which provides deep immutability.
 
 ## Angular
-[Console Helper Service](./angular/ConsoleHelperService)
+[Console Helper Service](./Angular/ConsoleHelperService)
 A service which uses the window object to enable us to call our own functions from the browsers console.
 
 
