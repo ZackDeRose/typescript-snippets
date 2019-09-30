@@ -10,7 +10,7 @@ A logging decorator which can be attached to each component and will be instanci
 
 Create a Logger class
 ```typescript
-export class LoggingService {
+export class Logger {
     constructor(
         private loggingContext: string,
         private defaultLogTopic: LOG_TOPIC,

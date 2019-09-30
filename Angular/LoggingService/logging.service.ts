@@ -36,7 +36,7 @@ export function setupConsoleLoggingHelper(consoleHelperService: ConsoleHelperSer
     });
 }
 
-export class LoggingService implements ILogger {
+export class Logger implements ILogger {
     constructor(
         private loggingContext: string,
         private defaultLogTopic: LOG_TOPIC,
@@ -95,6 +95,6 @@ export class LoggingService implements ILogger {
 
 export function logger(context: string = '', topic: LOG_TOPIC = LOG_TOPIC.UNKNOWN): (target: any, key: string) => void {
     return (target: any, key: string) => {
-        target[key] = new LoggingService(context, topic);
+        target[key] = new Logger(context, topic);
     };
 }
