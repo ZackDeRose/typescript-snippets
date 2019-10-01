@@ -19,6 +19,6 @@ A service which uses the window object to enable us to call our own functions fr
 [Logging Decorator](./Angular/LoggingService)
 A logging decorator which can be attached to each component and will be instanciated with its context and topic.
 
-
+___
 Hopefully we could also solve some of your problems or provide some new solution ideas.
 We are always looking forward to your suggestions for improvement and comments on our snippets here at GitHub.
