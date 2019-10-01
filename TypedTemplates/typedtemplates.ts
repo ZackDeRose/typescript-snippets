@@ -22,7 +22,7 @@ interface IGenericConfig<T extends ITemplate = ITemplate, C extends CONFIG_TYPE 
 export interface IConfigChart extends IGenericConfig<ITemplateChart, CONFIG_TYPE.CHART> {}
 export interface IConfigTable extends IGenericConfig<ITemplateTable, CONFIG_TYPE.TABLE> {}
 
-export type IConfig = IConfigChart | IConfigChart;
+export type IConfig = IConfigChart | ITemplateTable;
 
 const MY_TEMPLATE: IConfig = {
     configType: CONFIG_TYPE.CHART,
