@@ -54,4 +54,4 @@ switch (status) {
 ```
 
 ### Benefit
-Easy extensibility of complex switch statements. More confidence and safe code.
+Simple extension of types and explicit reference to places where this needs to be considered. Easy extensibility of complex switch statements and more confidence and safe code.
