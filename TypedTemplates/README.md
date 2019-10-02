@@ -46,7 +46,7 @@ export interface IConfigTable extends IGenericConfig<ITemplateTable, CONFIG_TYPE
 ```
 A union of those configuration interfaces now provides our config type.
 ```typescript
-export type IConfig = IConfigChart | IConfigChart;
+export type IConfig = IConfigChart | IConfigTable;
 ```
 If we use this link now, this will be ok
 ```typescript
