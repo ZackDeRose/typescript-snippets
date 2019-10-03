@@ -1,7 +1,7 @@
 /* tslint:disable:no-console */
 
 import {isString} from 'lodash';
-import {ConsoleHelperService} from '../ConsoleHelperService/console.service';
+import {ConsoleHelperService} from '../consolehelper/console.service';
 
 
 export enum LOG_LEVEL {

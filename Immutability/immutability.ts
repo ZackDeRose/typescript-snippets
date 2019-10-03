@@ -1,4 +1,4 @@
-import { cloneDeep } from 'lodash';
+import { cloneDeep } from './node_modules/lodash';
 
 
 type Primitive = undefined | null | boolean | string | number | Function;
