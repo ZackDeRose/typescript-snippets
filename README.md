@@ -4,22 +4,22 @@ This is our collection of useful TypeScript snippets, which makes it a lot easie
 In enterprise grade applications, everyone will encounter various problems which need to be solved to maintain a sustainable and extensible code base. In this collection you will find solutions to some of the problems we have encountered.
 
 ## TypeScript
-[Typed ID's](./typedids)
+[Typed ID's](./TypedIds)
 Provides an interface which wraps the String type to give the TypeScript Compiler the ability to help the developer while handling Id's.
 
-[Typed Templates](./typedtemplates)
+[Typed Templates](./TypedTemplates)
 
-[Immutability](./immutability)
+[Immutability](./Immutability)
 An immutable type, which provides deep immutability.
 
-[Assert Unreachable](./assertunreachable)
+[Assert Unreachable](./AssertUnreachable)
 A function that helps to make sure you've really covered every case.
 
 ## Angular
-[Console Helper](./angular/consolehelper)
+[Console Helper](./Angular/consolehelper)
 A service which uses the window object to enable us to call our own functions from the browsers console.
 
-[Logging Decorator](./angular/logger)
+[Logging Decorator](./Angular/logger)
 A logging decorator which can be attached to each component and will be instanciated with its context and topic.
 
 ___
