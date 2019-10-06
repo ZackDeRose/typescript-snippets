@@ -51,7 +51,7 @@ this.consoleHelperService.registerFunction("enableLogging", () => {
 this.consoleHelperService.registerFunction("version", () => this.createVersionInfo(), "Show version info");
 ```
 Use the functions from the console
-![Console Helper in use](./consolehelper.gif)
+![Console Helper in use](./consolehelper_short.gif)
 
 ### Benefit
 Easy and fun way to interact with the application without digging around in the debugger.
