@@ -41,16 +41,17 @@ and register it in the namespace
 ```typescript
 this.registerFunction("help", () => this.help(), "Show this help text");
 ```
-Register new functions
+Or register new functions
 ```typescript
 this.consoleHelperService.registerFunction("enableLogging", () => {
     this.logToConsole = true;
 });
 ```
-Or
 ```typescript
 this.consoleHelperService.registerFunction("version", () => this.createVersionInfo(), "Show version info");
 ```
+Use the functions from the console
+![Console Helper in use](./consolehelper.gif)
 
 ### Benefit
 Easy and fun way to interact with the application without digging around in the debugger.
