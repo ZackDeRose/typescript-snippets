@@ -36,7 +36,9 @@ private help(): void {
         console.log(fnName, ":", this.helpTextList[fnName]);
     }
 }
-
+```
+and register it in the namespace
+```typescript
 this.registerFunction("help", () => this.help(), "Show this help text");
 ```
 Register new functions
