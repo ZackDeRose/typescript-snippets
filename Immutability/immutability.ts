@@ -25,7 +25,7 @@ export function clone<T>(x: Immutable<T>): T {
 }
 
 const isFreezable = (x: any): boolean => {
-    if (typeof x === 'object) {
+    if (typeof x === 'object') {
         return !!x;
     }
     return false;
