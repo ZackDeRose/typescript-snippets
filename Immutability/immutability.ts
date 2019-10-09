@@ -23,3 +23,10 @@ export function clone<T>(x: DeepImmutableObject<T>): T;
 export function clone<T>(x: Immutable<T>): T {
     return <T>cloneDeep(x);
 }
+
+export function freeze<T>(x: T): Immutable<T> {
+    if (x.freeze) {
+        return Object.freeze(x) as Immutable<T>;
+    }
+    return x as Immutable<T>;
+}
